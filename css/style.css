@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -279,7 +280,7 @@ a:focus {
   position: unset;
 }
 
-.slider_section .detail-box {
+.slider_section .detail-box p{
   color: #00204a;
 }
 
@@ -289,6 +290,7 @@ a:focus {
   text-transform: uppercase;
   margin-bottom: 15px;
   color: #ffffff;
+  font-family: "Open Sans";
 }
 
 .slider_section .detail-box p {
@@ -411,6 +413,7 @@ a:focus {
 
 .service_section {
   position: relative;
+  
 }
 
 .service_section .box {
@@ -498,6 +501,11 @@ a:focus {
   color: #ffffff;
 }
 
+.about_section p{
+  color: #fff;
+font-family: "Open Sans";
+}
+
 .about_section .heading_container {
   margin-bottom: 45px;
 }
@@ -514,6 +522,7 @@ a:focus {
 
 .about_section .detail-box h3 {
   font-weight: bold;
+  
 }
 
 .about_section .detail-box p {
@@ -534,6 +543,12 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: #007fa4;
+}
+
+.why_section p{
+  color: black;
+  font-size: 20px;
+  font-family: "Open Sans";
 }
 
 .why_section .box {
@@ -578,6 +593,7 @@ a:focus {
 
 .why_section .box h5 {
   font-weight: bold;
+  color: #363232;
   margin-bottom: 10px;
 }
 
@@ -732,13 +748,15 @@ a:focus {
   justify-content: space-between;
 }
 
-.client_section .box .client_id .client_info h6 {
+.client_section .box .client_id .client_info h6, h4 {
   font-weight: 600;
+  
   margin-bottom: 5px;
 }
 
 .client_section .box .client_id .client_info p {
   margin-bottom: 0;
+  color: white;
   font-size: 15px;
   font-size: 14px;
   margin-bottom: 10px;
@@ -949,7 +967,7 @@ a:focus {
 [ FONT ]*/
 
 @font-face {
-  font-family: Poppins-Regular;
+  font-family: Open Sans;
   src: url('../fonts/poppins/Poppins-Regular.ttf');
 }
 
@@ -988,7 +1006,7 @@ html {
 
 /*---------------------------------------------*/
 a {
-  font-family: Poppins-Regular;
+  font-family: "Open Sans";
   font-size: 14px;
   line-height: 1.7;
   color: #666666;
@@ -1019,7 +1037,7 @@ h6 {
 }
 
 p {
-  font-family: Poppins-Regular;
+  font-family: Open Sans;
   font-size: 14px;
   line-height: 1.7;
   color: #241b00;
@@ -1497,7 +1515,7 @@ iframe {
   right: 0px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: "Open sans";
   color: #c80000;
   font-size: 13px;
   line-height: 1.4;
